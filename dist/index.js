@@ -15,7 +15,9 @@ exports.ChainEndpoint = {
     avax: "avalanche",
     one: "harmony",
     sol: "solana",
-    terra: "terra"
+    terra: "terra",
+    cronos: "cronos",
+    pulsechain: "pulsechain"
 };
 function isNativeToken(token) {
     return token.type === 'nativeToken';

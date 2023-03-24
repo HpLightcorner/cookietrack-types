@@ -8,7 +8,7 @@
 /* ========================================================================================================================================================================= */
 
 // Basic Types:
-export type Chain = 'eth' | 'bsc' | 'poly' | 'ftm' | 'avax' | 'one' | 'sol' | 'terra' | 'cronos';
+export type Chain = 'eth' | 'bsc' | 'poly' | 'ftm' | 'avax' | 'one' | 'sol' | 'terra' | 'cronos'| 'pulsechain';
 export type ChainID = 1 | 56 | 137 | 250 | 43114 | 1666600000;
 export type URL = `https://${string}`;
 export type Address = `0x${string}`;
@@ -29,7 +29,8 @@ export const ChainEndpoint: Record<Chain, string> = {
     one: "harmony",
     sol: "solana",
     terra: "terra",
-    cronos: "cronos"
+    cronos: "cronos",
+    pulsechain: "pulsechain"
 };
 
 /* ========================================================================================================================================================================= */

@@ -21,5 +21,8 @@
     "bugs": {
         "url": "https://github.com/CookieTrack-io/cookietrack-types/issues"
     },
+    "devDependencies": {
+        "typescript": "5.0.2"
+    },
     "homepage": "https://github.com/CookieTrack-io/cookietrack-types#readme"
 }
